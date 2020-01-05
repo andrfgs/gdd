@@ -10,7 +10,7 @@ URL to the original download (.doc file)
 https://docs.google.com/document/d/1-I08qX76DgSFyN1ByIGtPuqXh7bVKraHcNIA25tpAzE/edit?usp=sharing
 
 ## Requirements
-The LaTeX uses two custom fonts:
+The LaTeX document uses two custom fonts:
  - Open Sans for titles and sections
  - Gentium Book Basic for the paragraph text
 
