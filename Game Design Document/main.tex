@@ -1,0 +1,338 @@
+\documentclass[14pt]{article}
+\usepackage{extsizes}
+\usepackage{import}
+\usepackage{imakeidx}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{subfiles}
+\import{}{fonts.tex}
+\typeout{Requires XeLaTeX}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% License
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Original authors: Alec Markarian and 
+% Benjamin Stanley
+% LaTeX version author: André Santos
+%
+% URL to original work:
+% https://forum.unity.com/threads/game-design-document-template.240038/
+%
+% This work is an adapted LaTeX version of the
+% original document made by Alec Markarian and 
+% Benjamin Stanley. This notice should not be
+% removed, neither should the grey credits.
+% The credits on this document should also remain 
+% at exactly where they currently are (at the
+% cover). The color, typography and size can
+% be changed but should remain easily readable.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Custom Fonts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% If you do not wish to use a custom font
+% you can remove the fonts.tex file and its
+% import command. 
+% If you do intend on using custom fonts,
+% you need to compile this project using
+% XeLaTeX
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hyperref link colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=darkgray,
+    urlcolor=black
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document title, author and date
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{<Your Game Name Here>}
+\author{Author Name}
+\date{Date Here}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{notecolor}{rgb}{0.289, 0.21, 0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document Cover
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\maketitle
+\thispagestyle{empty}
+\vspace{8cm}
+
+% CREDITS, DO NOT REMOVE!
+% Original Work: 
+\begin{center}
+    \textcolor{gray}{\large This document is based on the GDD Template Written by: Alec Markarian and Benjamin Stanley}
+\end{center}
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of Contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Don't show page number on index
+\thispagestyle{empty}
+\tableofcontents
+\thispagestyle{empty}
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Overview}
+\subsection{Theme / Setting / Genre}
+\subsubsection{Theme}
+<insert game theme here>
+
+\subsubsection{Setting}
+<insert game setting here>
+
+\subsubsection{Genre}
+<insert game genre here>
+
+\section{Core Gameplay Mechanics Brief}
+\begin{itemize}
+    \item <Gameplay Mechanic \#1>
+    \item <Gameplay Mechanic \#2>
+    \item <Gameplay Mechanic \#3>  
+    \item <Gameplay Mechanic \#4>
+\end{itemize}
+
+\subsection{Targeted Platforms}
+\begin{itemize}
+    \item <Example Platform \#1 Here>
+    \item <Example Platform \#2 Here>
+    \item <Example Platform \#3 Here>
+\end{itemize}
+
+\subsection{Monetization model (Brief/Document)}
+<Monetization Type> (Premium, Paid Alpha/Beta/Final, Ad Driven, Micro-transactions, Subscription, etc.) \\
+<Link to Monetization Document> 
+(How do you plan to monetize the game?)
+
+\subsection{Project Scope}
+\subsubsection{Game Time Scale}
+Time Scale (How long will it take to make this game?)
+
+\subsubsection{Team Size}
+<Core Team> \\
+\hspace{1mm}		- Team Member name? \\
+			- What does he/she do? \\
+			- <Cost to employ them full time or part time> \\
+		- etc. \\
+- <Marketing Team> \\
+		- Team Member name? \\ 
+			- What does he/she do? \\
+			- <Cost to employ them full time or part time> \\
+		- Etc.
+(List as many marketing team members as you need to)
+
+\subsubsection{Projected Cost}
+\subsubsection{Projected Time to Make}
+\subsubsection{Team}
+\subsubsection{Marketing Team}
+\subsubsection{Licenses / Hardware / Other Costs}
+\subsubsection{Total Cost Breakdown}
+
+\subsection{Influences (Brief)}
+\subsubsection{Influence \# 1}
+- <Medium> (Television, Games, Literature, Movies, etc.)
+- /Explain why this is an influence in 1 Paragraph or less/
+
+\subsubsection{Influence \# 2}
+- <Medium> (Television, Games, Literature, Movies, etc.)
+- /Explain why this is an influence in 1 Paragraph or less/
+
+\subsubsection{Influence \# 3}
+- <Medium> (Television, Games, Literature, Movies, etc.)
+- /Explain why this is an influence in 1 Paragraph or less/
+
+
+\subsection{The elevator Pitch}
+<A one sentence pitch for your game.> 
+Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds
+
+\subsection{Brief Project Description}
+<Two Paragraphs at least>
+<No more than three paragraphs>
+\pagebreak
+
+
+\section{Detailed Project Description}
+<Four Paragraphs or more If needs be>
+<No more than six paragraphs>
+\pagebreak
+
+
+\section{What sets this project apart?}
+\begin{itemize}
+    \item <Reason \#1>
+	\item <Reason \#2>
+	\item <Reason \#3>
+	\item <Reason \#4>
+	\item <etc.>
+\end{itemize}
+
+\subsection{Core Gameplay Mechanics (Detailed)}
+\subsubsection{Core Gameplay Mechanic \#1}
+- <Details> \\
+    Describe in 2 Paragraphs or less \\
+- <How it works> \\
+    Describe in 2 Paragraphs or less
+
+\subsubsection{Core Gameplay Mechanic \#2}
+- <Details> \\
+    Describe in 2 Paragraphs or less \\
+- <How it works> \\
+    Describe in 2 Paragraphs or less   
+
+\pagebreak
+\section{Story and Gameplay}
+\subsection{Story (Brief)}
+<The Summary or TL;DR version of below>
+
+\subsection{Story (Detailed)}
+<Go into as much detail as needs be> \\
+<Spare no detail> \\
+<Use Mind Mapping software to get your point across>
+
+\subsection{Gameplay (Brief)}
+<The Summary version of below>
+
+\subsection{Gameplay (Detailed)}
+<Go into as much detail as needs be> \\
+<Spare no detail> \\
+<Combine this with the game mechanics section above>
+
+
+\pagebreak
+\section{Assets Needed}
+\subsection{2D}
+\subsubsection{Textures}
+- Environment Textures
+
+\subsubsection{Heightmap Data (If applicable)}
+- List required data required - Example: DEM data of the entire UK
+
+\subsubsection{Etc.}
+
+\subsection{3D}
+\subsubsection{Characters List}
+\begin{itemize}
+    \item Character \#1
+    \item Character \#2
+    \item Character \#3
+    \item etc.
+\end{itemize}
+
+\subsubsection{Environmental Art Lists}
+\begin{itemize}
+    \item Example \#1
+    \item Example \#2
+    \item Example \#3
+    \item etc.
+\end{itemize}
+
+\subsection{Sound}
+\subsubsection{Sound List (Ambient)}
+\paragraph{Outside}
+\begin{itemize}
+    \item Level 1
+    \item Level 2
+    \item Level 3
+    \item etc.
+\end{itemize}
+
+\paragraph{Inside}
+\begin{itemize}
+    \item Level 1
+    \item Level 2
+    \item Level 3
+    \item etc.
+\end{itemize}
+
+\subsubsection{Sound List (Player)}
+\paragraph{Character Movment Sound List}
+\begin{itemize}
+    \item Example 1
+    \item Example 2
+    \item etc.
+\end{itemize}
+
+\paragraph{Character Hit / Collision Sound list}
+\begin{itemize}
+    \item Example 1
+    \item Example 2
+    \item etc.
+\end{itemize}
+
+\paragraph{Character on Injured / Death sound list}
+\begin{itemize}
+    \item Example 1
+    \item Example 2
+    \item etc.
+\end{itemize}
+
+\subsection{Code}
+\subsubsection{Character Scripts (Player Pawn/Player Controller)}
+
+\subsubsection{Ambient Scripts (Runs in the background)}
+\begin{itemize}
+    \item Example
+    \item etc.
+\end{itemize}
+
+\subsubsection{NPC Scripts}
+\begin{itemize}
+    \item Example
+    \item etc.
+\end{itemize}
+
+\subsection{Animation}
+\subsubsection{Environment Animations}
+\begin{itemize}
+    \item Example
+    \item etc.
+\end{itemize}
+
+\subsubsection{Character Animations}
+\paragraph{Player}
+\begin{itemize}
+    \item Example
+    \item etc.
+\end{itemize}
+
+\paragraph{NPC}
+\begin{itemize}
+    \item Example
+    \item etc.
+\end{itemize}
+
+\pagebreak
+\section{Schedule}
+\subsection{Object \#1}
+\begin{itemize}
+    \item Milestone 1
+    \item Milestone 2
+    \item etc.
+\end{itemize}
+
+\subsection{Object \#22}
+\begin{itemize}
+    \item Milestone 1
+    \item Milestone 2
+    \item etc.
+\end{itemize}
+
+\end{document}

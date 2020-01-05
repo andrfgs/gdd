@@ -1,0 +1,35 @@
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{titling}
+
+\defaultfontfeatures[Open Sans]
+{
+Extension = .ttf ,
+UprightFont = OpenSans-Regular,
+BoldFont = OpenSans-Bold,
+ItalicFont = OpenSans-Italic
+}
+
+\defaultfontfeatures[Gentium Book Basic]
+{
+Extension = .ttf,
+UprightFont = GentiumBookBasic-Regular,
+BoldFont = GentiumBookBasic-Bold,
+ItalicFont = GentiumBookBasic-Italic,
+BoldItalicFont = GentiumBookBasic-BoldItalic
+}
+
+% title and section fonts
+%\setmainfont{Lato}
+\newfontfamily\headingfont[]{Open Sans}
+\titleformat{\chapter}[display]
+  {\huge\headingfont}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titleformat*{\section}{\normalfont\Large\bfseries\headingfont}
+\titleformat*{\subsection}{\normalfont\large\bfseries\headingfont}
+\titleformat*{\subsubsection}{\normalfont\normalsize\bfseries\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+\setmainfont{GentiumBookBasic}
+%\setmainsfont[ExternalLocation=fonts/]{OpenSans-Regular.ttf}%
+%[Ligatures=TeX,
+%  BoldFont=OpenSans-Bold.ttf,
+% ItalicFont=OpenSans-Regular-Italic.ttf]
